@@ -31,7 +31,13 @@ document.querySelectorAll('.social-links a').forEach((icon) => {
 });
 
 // Message de confirmation pour le formulaire
-document.querySelector('.contact-form').addEventListener('submit', (e) => {
+document.querySelector('.contact-form').addEventListener('submit', function (e) {
     e.preventDefault();
-    alert('Merci pour votre message ! Je reviendrai vers vous sous peu.');
+    const form = this;
+    form.style.transform = 'scale(1.1)';
+    form.style.transition = 'transform 0.3s ease';
+    setTimeout(() => {
+        form.style.transform = 'scale(1)';
+        alert('Message envoyé avec succès!');
+    }, 300);
 });
