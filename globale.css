@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    /* text */
+    --font-title: "Lora", serif;
+    --font-main: "Playfair Display", serif;
+
+    /* Colors */
+    --clear: #FFFBF5;
+    --greenlight: #E1F0DA;
+    --greemight: #D4E7C5;
+    --greenlightdeep: #BFD8AF;
+    --deepgreen: #99BC85;
+
+    --white: #fff;
+    --black: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-main);
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--clear);
+}
+
+.pad {
+    padding: 40px 20px;
+}
+
+.title {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    color: var(--deepgreen);
+    font-size: 24px;
+}
+
+.main_one,
+.main_two,
+.main_three,
+.main_four,
+.main_five {
+    position: relative;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+.main_five {
+    background-color: #2A3990;
+}
+
+.main_container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}

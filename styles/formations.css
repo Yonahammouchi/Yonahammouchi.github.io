@@ -1,0 +1,55 @@
+@import url(/globale.css);
+
+.main_three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containers-formations {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 120px;
+}
+
+.date {}
+
+.formations {
+    width: 75%;
+}
+
+.formations .fix {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.formations .fix h1 {
+    background-color: var(--greenlight);
+    padding: 2px 12px;
+    border-radius: 54px;
+    font-size: 28px;
+}
+
+.formations .fix p,
+.formations p,
+.date h4 {
+    font-size: 20px;
+}
+
+.formations #content {
+    width: 60%;
+}
+
+/* .formations .fix p {
+    width: 300px;
+    background-color: red;
+} */
+
+.formations .fix .codep {
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+}
