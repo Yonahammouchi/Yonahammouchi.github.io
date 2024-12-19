@@ -1,1 +1,95 @@
 @import url(/globale.css);
+
+.sec_title {
+    padding-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containers_pro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: 70vh;
+}
+
+
+.fans h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.fans img {
+    width: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.bloom h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.bloom img {
+    width: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.container-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.containers-pro {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+
+    margin-top: 50px;
+
+}
+
+.containers-pro h3 {
+    display: flex;
+}
+
+.containers-pro p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: 60px;
+}
+
+.pic img {
+    width: 500px;
+}
+
+.p img {
+    width: 520px;
+}
+
+.containers-pro img {
+    width: 100px;
+}
+
+.container-twist {
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+    background-color: var(--greenlight);
+}

@@ -46,14 +46,25 @@ body {
 .main_two,
 .main_three,
 .main_four,
-.main_five {
+.main_five,
+.main_six,
+.main_seven,
+.main_height {
     position: relative;
     height: 100vh;
     scroll-snap-align: start;
 }
 
-.main_five {
-    background-color: #2A3990;
+.main_four {
+    background-color: var(--greenlight);
+}
+
+.main_six {
+    background-color: var(--white);
+}
+
+.main_seven {
+    background-color: var(--white);
 }
 
 .main_container {

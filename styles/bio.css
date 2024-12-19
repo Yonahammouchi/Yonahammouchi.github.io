@@ -17,6 +17,10 @@
     gap: 80px;
 }
 
+strong {
+    color: var(--deepgreen);
+}
+
 .text-bio p {
     width: 45%;
     text-align: center;
@@ -37,5 +41,5 @@
 }
 
 .picture-bio img {
-    width: 135%;
+    width: 114%;
 }
