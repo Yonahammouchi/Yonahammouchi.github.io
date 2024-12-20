@@ -33,7 +33,7 @@
     display: inline-block;
     font-size: 4rem;
     font-weight: bold;
-    color: #e74c3c;
+    color: var(--deepgreen);
     animation: fadeOutIn 2s ease-in-out infinite;
 }
 
