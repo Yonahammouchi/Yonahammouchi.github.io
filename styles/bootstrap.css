@@ -1,0 +1,37 @@
+@import url(/globale.css);
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color: var(--clear);
+    color: white;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-around;
+
+    z-index: 1000;
+    transition: top 0.3s;
+
+    border-radius: 35px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2)
+}
+
+/* taille de la nav quand elle disparait  */
+.fixed-navbar.hidden {
+    top: -70px;
+}
+
+.fixed-navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.fixed-navbar a:hover {
+    background-color: rgba(200, 97, 97, 0.1);
+}

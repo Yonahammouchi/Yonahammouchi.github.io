@@ -10,273 +10,323 @@
     <link rel="stylesheet" href="globale.css">
     <link rel="stylesheet" href="./styles/bio.css">
     <link rel="stylesheet" href="./styles/formations.css">
-    <link rel="stylesheet" href="./styles/experiences.css">
+    <link rel="stylesheet" href="./styles/realisation.css">
+    <link rel="stylesheet" href="./styles/contact.css">
+    <link rel="stylesheet" href="./styles/bootstrap.css">
     <title>Mon Portfolio</title>
 </head>
 
 <body>
 
-    <div class="main_container">
-        <section class="main_one">
-            <header>
-                <section class="sec">
+    <nav class="fixed-navbar">
+        <a href="#main" title="Accueil">🏛️</a>
+        <a href="#profile" title="Qui je suis">👩🏽‍💻</a>
+        <a href="#parc" title="Parcours">🎓</a>
+        <a href="#proj" title="Projets">🧠</a>
+        <a href="#fan" title="Fansites">✈️</a>
+        <a href="#bloom" title="Bloompetals">🌸</a>
+        <a href="#cont" title="contact">☎️</a>
+        <a href="#main" title="Haut de page">⤴️</a>
+    </nav>
 
-                    <section class="containers">
-                        <div class="des">
-                            <h1>Portfolio</h1>
-                            <h2>Yona <br /> HAMMOUCHI</h2>
+
+    <section id="main" class="main_one">
+        <header>
+            <section class="sec">
+
+                <section class="containers">
+                    <div class="des">
+                        <h1>Portfolio</h1>
+                        <h2><span class="fade-in-out">Yona <br>HAMMOUCHI</span></h2>
+                    </div>
+
+                    <div class="dev">
+                        <div class="dev_full">
+                            <p>Développeuse Web Full-Stack Junior</p>
+                        </div>
+                        <div class="dev_contact">
+                            <a href="">
+                                <p>Contactez-moi</p>
+                            </a>
+                            <hr>
                         </div>
 
-                        <div class="dev">
-                            <div class="dev_full">
-                                <p>Développeuse Web Full-Stack Junior</p>
-                            </div>
-                            <div class="dev_contact">
-                                <a href="">
-                                    <p>Contactez-moi</p>
-                                </a>
-                                <hr>
-                            </div>
-
-                        </div>
-                    </section>
-
-                    <section class="containers_picture_head">
-                        <img src="./assets/head.png" alt="">
-                    </section>
+                    </div>
                 </section>
-            </header>
 
+                <section class="containers_picture_head">
+                    <img src="./assets/profile/head.png" alt="">
+                </section>
+            </section>
+        </header>
+    </section>
+
+    <section class="pad">
+        <section class="main_two" id="profile">
+
+            <div class="title">
+                <h3>QUI <span class="animated-word"> JE SUIS</span></h3>
+            </div>
+
+            <section class="containers-bio">
+                <div class="text-bio">
+
+                    <p>Je suis une personne dynamique, sérieuse et passionnée par l’informatique, avec un intérêt
+                        particulier pour <strong>développement web</strong> . Que ce soit à titre personnel ou dans
+                        le cadre de ma
+                        formation, je m’investis pleinement pour enrichir mes compétences et relever de nouveaux
+                        défis.
+                        <br><br>
+                        Actuellement, je <strong>recherche une alternance</strong> pour mes deuxième et troisième
+                        années, afin de
+                        mettre en
+                        pratique mes connaissances tout en acquérant une expérience concrète en entreprise. Mon
+                        objectif est
+                        de contribuer efficacement à des projets innovants tout en poursuivant ma progression
+                        professionnelle.
+                    </p>
+
+                    <div class="picture-bio">
+                        <img src="./assets/profile/profile.jpg" alt="">
+                    </div>
+                </div>
+            </section>
         </section>
-        <section class="pad">
-            <section class="main_two">
 
+        <section class="main_three" id="parc">
+            <div class="title">
+                <h3>MON<span class="animated-word"> PARCOURS ?</span></h3>
+            </div>
+
+            <div class="wrapper_formations">
+                <div class="containers-formations">
+                    <div class="date">
+                        <h4>2024 - 2027</h4>
+                    </div>
+
+                    <div class="formations">
+                        <div class="fix">
+                            <h1>BACHELOR - IT - INFORMATIQUE</h1>
+                            <div class="codep">
+                                <p>Marseille</p>
+                                <p>13002</p>
+                            </div>
+                        </div>
+                        <p id="content">Je suis inscrite à la plateforme pour suivre un cursus en informatique, avec
+                            une
+                            spécialisation en développement web.</p>
+                    </div>
+                </div>
+
+                <div class="containers-formations">
+                    <div class="date">
+                        <h4>2018 - 2020</h4>
+                    </div>
+
+                    <div class="formations">
+                        <div class="fix">
+                            <h1>BTS SUPPORT A L'ACTION MANAGERIALE</h1>
+                            <div class="codep">
+                                <p>Aix-En-Provence</p>
+                                <p>13617</p>
+                            </div>
+                        </div>
+                        <p id="content">Le BTS Support à l’Action Managériale m’a permis de développer des
+                            compétences en
+                            organisation, en communication et en gestion administrative</p>
+                    </div>
+                </div>
+
+                <div class="containers-formations">
+                    <div class="date">
+                        <h4>2017 - 2018</h4>
+                    </div>
+
+                    <div class="formations">
+                        <div class="fix">
+                            <h1>TERMINALE STMG - SPE RESSOURCES HUMAINES</h1>
+                            <div class="codep">
+                                <p>Pertuis</p>
+                                <p>84120</p>
+                            </div>
+                        </div>
+                        <p id="content">La Terminale STMG avec spécialité Ressources Humaines m’a permis de
+                            comprendre les enjeux
+                            de
+                            la gestion des équipes, du management et de la communication interne</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main_four" id="proj">
+            <div class="containers-expe">
                 <div class="title">
-                    <h3>QUI JE SUIS?</h3>
+                    <h3>MES <span class="animated-word">PROJETS ?</span></h3>
                 </div>
 
-                <section class="containers-bio">
-                    <div class="text-bio">
-
-                        <p>Je suis une personne dynamique, sérieuse et passionnée par l’informatique, avec un intérêt
-                            particulier pour <strong>développement web</strong> . Que ce soit à titre personnel ou dans
-                            le cadre de ma
-                            formation, je m’investis pleinement pour enrichir mes compétences et relever de nouveaux
-                            défis.
-                            <br><br>
-                            Actuellement, je <strong>recherche une alternance</strong> pour mes deuxième et troisième
-                            années, afin de
-                            mettre en
-                            pratique mes connaissances tout en acquérant une expérience concrète en entreprise. Mon
-                            objectif est
-                            de contribuer efficacement à des projets innovants tout en poursuivant ma progression
-                            professionnelle.
-                        </p>
-
-                        <div class="picture-bio">
-                            <img src="./assets/profile.jpg" alt="">
-                        </div>
-
-                    </div>
-
-                </section>
-            </section>
-
-            <section class="main_three">
-
-                <div class="title">
-                    <h3>FORMATIONS</h3>
+                <div class="sec_title">
+                    <h2>MES TRAVAUX RECENTS</h2>
                 </div>
+            </div>
 
-                <div class="wrapper_formations">
-                    <div class="containers-formations">
-                        <div class="date">
-                            <h4>2024 - 2027</h4>
-                        </div>
+            <section class="containers_pro">
 
-                        <div class="formations">
-                            <div class="fix">
-                                <h1>BACHELOR - IT - INFORMATIQUE</h1>
-                                <div class="codep">
-                                    <p>Marseille</p>
-                                    <p>13002</p>
-                                </div>
-                            </div>
-                            <p id="content">Je suis inscrite à la plateforme pour suivre un cursus en informatique, avec
-                                une
-                                spécialisation en développement web.</p>
-                        </div>
+                <div class="fans">
+                    <div>
+                        <h3>FANSITES</h3>
                     </div>
-
-                    <div class="containers-formations">
-                        <div class="date">
-                            <h4>2018 - 2020</h4>
-                        </div>
-
-                        <div class="formations">
-                            <div class="fix">
-                                <h1>BTS SUPPORT A L'ACTION MANAGERIALE</h1>
-                                <div class="codep">
-                                    <p>Aix-En-Provence</p>
-                                    <p>13617</p>
-                                </div>
-                            </div>
-                            <p id="content">Le BTS Support à l’Action Managériale m’a permis de développer des
-                                compétences en
-                                organisation, en communication et en gestion administrative</p>
-                        </div>
-                    </div>
-
-                    <div class="containers-formations">
-                        <div class="date">
-                            <h4>2017 - 2018</h4>
-                        </div>
-
-                        <div class="formations">
-                            <div class="fix">
-                                <h1>TERMINALE STMG - SPE RESSOURCES HUMAINES</h1>
-                                <div class="codep">
-                                    <p>Pertuis</p>
-                                    <p>84120</p>
-                                </div>
-                            </div>
-                            <p id="content">La Terminale STMG avec spécialité Ressources Humaines m’a permis de
-                                comprendre les enjeux
-                                de
-                                la gestion des équipes, du management et de la communication interne</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="main_four">
-                <div class="containers-expe">
-                    <div class="title">
-                        <h3>REALISATIONS</h3>
-                    </div>
-
-                    <div class="sec_title">
-                        <h2>VOICI MES PROJETS</h2>
+                    <div>
+                        <img src="./assets/realisations/fansites.png" alt="">
                     </div>
                 </div>
 
-                <section class="containers_pro">
-
-                    <div class="fans">
-                        <div>
-                            <h3>FANSITES</h3>
-                        </div>
-                        <div>
-                            <img src="./assets/fansites.png" alt="">
-                        </div>
+                <div class="bloom">
+                    <div>
+                        <h3>BLOOMPETALS</h3>
                     </div>
-
-                    <div class="bloom">
-                        <div>
-                            <h3>BLOOMPETALS</h3>
-                        </div>
-                        <div class="">
-                            <img src="./assets/bloompetals.png" alt="">
-                        </div>
-                    </div>
-                </section>
-            </section>
-
-            <section class="main_five">
-                <h1>EXPERIENCES PROFESSIONNELLES</h1>
-            </section>
-
-            <section class="main_six">
-                <div class="container-main">
-
-                    <div class="pic">
-                        <img src="./assets/templatearm.png" alt="">
-                    </div>
-
-                    <div class="containers-pro">
-                        <h3>MON PROJET FANSITES</h3>
-                        <p>Page "Home" :
-                            ✨ Une page d'accueil intuitive qui guide l'utilisateur vers nos destinations favorites :
-                            la Guadeloupe, le Japon, et la Grèce.
-                            <br><br>
-                            Page "Global" :
-                            🛠️ Un espace regroupant des éléments communs au site, comme une navbar et un footer
-                            uniformisés.
-                            <br><br>
-                            Ma page dédiée à la Grèce 🇬🇷 :
-                            🏛️ Exploration des monuments emblématiques tels que le Parthénon, avec une mise en valeur
-                            visuelle inspirée de l'Antiquité.
-                            <br><br>
-                            🎨 Design créatif : utilisation d’images aux formes originales, évoquant des fossiles, pour
-                            un rendu immersif unique.
-                            🖱️ Navigation interactive : une navbar verticale enrichie d’émojis (merci Bootstrap !)
-                        </p>
+                    <div class="">
+                        <img src="./assets/realisations/bloompetals.png" alt="">
                     </div>
                 </div>
-                <div class="container-twist">
-                    <div class="p">
-                        <img src="./assets/templatelast.png" alt="">
-                    </div>
-                    <div class="containers-pro">
-                        <h3>Technologies utilisées:</h3>
-                        <div>
-                            <img src="./skills/css-3.png" alt="">
-                            <img src="./skills/html.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="main_seven">
-                <div class="container-main">
-
-                    <div class="pic">
-                        <img src="./assets/bloomarm.png" alt="">
-                    </div>
-
-                    <div class="containers-pro">
-                        <h3>MON PROJET BLOOMPETALS</h3>
-                        <p>🎨 Approche créative : J'ai eu la liberté de choisir les couleurs et les polices d'écriture,
-                            ce qui m'a permis de travailler sur l'aspect visuel tout en respectant l’identité de
-                            l'entreprise.
-                            <br><br>
-                            J'ai opté pour une palette de couleurs fraîches et élégantes, parfaitement en
-                            adéquation avec l’univers floral de BloomPetals. De plus, pour la page des réalisations,
-                            j'ai utilisé Flexbox pour créer une belle mosaïque de photos, permettant de mettre en avant
-                            les créations florales de manière dynamique.
-                            <br><br>
-                            📈 Objectif atteint : Ce projet a été une excellente occasion de mettre en pratique mes
-                            compétences en HTML et CSS, mais aussi de travailler sur l’aspect créatif et fonctionnel
-                            d’un site web. C’est un projet personnel où j'ai pu m'exprimer tout en restant fidèle aux
-                            besoins de l’entreprise.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="container-twist">
-                    <div class="p">
-                        <img src="./assets/bloom.png" alt="">
-                    </div>
-                    <div class="containers-pro">
-                        <h3>Technologies utilisées:</h3>
-                        <div>
-                            <img src="./skills/css-3.png" alt="">
-                            <img src="./skills/html.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="main_height">
-                <h1>CONTACT</h1>
             </section>
         </section>
+
+        <section class="main_five" id="fan">
+            <div class="container-main">
+
+                <div class="pic">
+                    <img src="./assets/realisations/templatearm.png" alt="">
+                </div>
+
+                <div class="containers-pro">
+                    <h3><span class="zoom-word">FANSITES</span></h3>
+                    <p>Page "Home" :
+                        ✨ Une page d'accueil intuitive qui guide l'utilisateur vers nos destinations favorites :
+                        la Guadeloupe, le Japon, et la Grèce.
+                        <br><br>
+                        Page "Global" :
+                        🛠️ Un espace regroupant des éléments communs au site, comme une navbar et un footer
+                        uniformisés.
+                        <br><br>
+                        Ma page dédiée à la Grèce 🇬🇷 :
+                        🏛️ Exploration des monuments emblématiques tels que le Parthénon, avec une mise en valeur
+                        visuelle inspirée de l'Antiquité.
+                        <br><br>
+                        🎨 Design créatif : utilisation d’images aux formes originales, évoquant des fossiles, pour
+                        un rendu immersif unique.
+                        🖱️ Navigation interactive : une navbar verticale enrichie d’émojis (merci Bootstrap !)
+                    </p>
+                </div>
+            </div>
+            <div class="container-twist">
+                <div class="p">
+                    <img src="./assets/realisations/templatelast.png" alt="">
+                </div>
+                <div class="containers-pro">
+                    <h3>Technologies utilisées:</h3>
+                    <div>
+                        <img src="./assets/skills/css-3.png" alt="">
+                        <img src="./assets/skills/html.png" alt="">
+                    </div>
+                </div>
+            </div>
         </section>
+
+        <section class="main_six" id="bloom">
+            <div class="container-main">
+
+                <div class="pic">
+                    <img src="./assets/realisations/bloomarm.png" alt="">
+                </div>
+
+                <div class="containers-pro">
+                    <h3><span class="zoom-word">BLOOMPETALS</span></h3>
+                    <p>🎨 Approche créative : J'ai eu la liberté de choisir les couleurs et les polices d'écriture,
+                        ce qui m'a permis de travailler sur l'aspect visuel tout en respectant l’identité de
+                        l'entreprise.
+                        <br><br>
+                        J'ai opté pour une palette de couleurs fraîches et élégantes, parfaitement en
+                        adéquation avec l’univers floral de BloomPetals. De plus, pour la page des réalisations,
+                        j'ai utilisé Flexbox pour créer une belle mosaïque de photos, permettant de mettre en avant
+                        les créations florales de manière dynamique.
+                        <br><br>
+                        📈 Objectif atteint : Ce projet a été une excellente occasion de mettre en pratique mes
+                        compétences en HTML et CSS, mais aussi de travailler sur l’aspect créatif et fonctionnel
+                        d’un site web.
+                        <br><br>
+                        C’est un projet personnel où j'ai pu m'exprimer tout en restant fidèle aux
+                        besoins de l’entreprise.
+                    </p>
+                </div>
+            </div>
+
+            <div class="container-twist">
+                <div class="p">
+                    <img src="./assets/realisations/bloom.png" alt="">
+                </div>
+                <div class="containers-pro">
+                    <h3>Technologies utilisées:</h3>
+                    <div>
+                        <img src="./assets/skills/css-3.png" alt="">
+                        <img src="./assets/skills/html.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main_seven" id="cont">
+            <div class="title">
+                <h1>Travaillons <span class="animated-word">ensemble</span></h1>
+            </div>
+
+            <div class="container">
+
+                <div class="image-container">
+                    <img src="./assets/profile/profile.jpg" alt="Profile Picture">
+                </div>
+
+                <div class="info-container" id="main">
+                    <div class="info-block">
+                        <div>
+                            <p>Localisation:</p>
+                            <p>Aix-En-Provence - Marseille</p>
+                            <p>30-35 km autour</p>
+                        </div>
+                        <div>
+                            <p>Me joindre:</p>
+                            <p>0769453204</p>
+                        </div>
+
+                        <div class="social-follow">
+                            <p>Me suivre:</p>
+                            <a href="https://www.linkedin.com/in/yona-hammouchi/" target="_blank">
+                                <img src="./assets/contact/linkedin.png" alt="LinkedIn">
+                            </a>
+                            <a href="https://github.com/yona-hammouchi" target="_blank">
+                                <img src="./assets/contact/github.png" alt="GitHub">
+                            </a>
+                            <p>Me contacter:</p>
+                        </div>
+
+                        <div class="contact-section">
+                            <a href="mailto:yona.hammouchi@outlook.com">
+                                <p>yona.hammouchi@outlook.com</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </section>
+    </section>
+    <script src="./js/script.js"></script>
     </div>
 
-
-
-
 </body>
+
 
 </html>

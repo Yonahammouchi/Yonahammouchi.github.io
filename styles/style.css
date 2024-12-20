@@ -29,6 +29,27 @@
     font-size: 90px;
 }
 
+.fade-in-out {
+    display: inline-block;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #e74c3c;
+    animation: fadeOutIn 2s ease-in-out infinite;
+}
+
+@keyframes fadeOutIn {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+
 .dev {
     display: flex;
     flex-wrap: wrap;
@@ -58,7 +79,7 @@
     width: 120%;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1050px) {
     .containers {
         display: flex;
         width: 700%;

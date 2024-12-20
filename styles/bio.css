@@ -43,3 +43,23 @@ strong {
 .picture-bio img {
     width: 114%;
 }
+
+@media (max-width: 1120px) {
+    .text-bio {
+        gap: 60px;
+    }
+
+    .text-bio p {
+        width: 40%;
+        font-size: 18px;
+    }
+
+    .picture-bio {
+        width: 300px;
+        height: 300px;
+    }
+
+    .picture-bio img {
+        width: 140%;
+    }
+}
